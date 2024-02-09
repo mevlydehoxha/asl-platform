@@ -1,0 +1,212 @@
+.home-admin{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .home-buttons{
+    button{
+      width: 190px;
+      margin-right: 10px;
+    }
+  }
+  .d-none{
+    display: none;
+  }
+  // .dashboard{
+  //   display: flex;
+  //   height: 100%; 
+  //   overflow: hidden;
+  //   background-color: #dee9ea;
+  // }
+  // .table{
+  //   width: 100%;
+  //   padding:20px 20px 0;
+  //   .table-items{
+  //     background-color: #3b7e86;
+  //     padding:8px 15px;
+  //     display: flex;
+  //     justify-content: space-between;
+  //     align-items: center;
+  //     border-radius: 7px;
+  //     .id{
+  //       width: fit-content !important;
+  //     }
+  //     .table-item{
+  //       display: flex;
+  //       justify-content: flex-start;
+  //       align-items: center;
+  //       width: 100px;
+  //       .sort{
+  //         content: url('../../../assets/dashboard/sort.png');
+  //         width: 20px;
+  //         margin-left: 10px;
+  //         cursor: pointer;
+  //         padding:4px;
+  //         border-radius: 3px;
+  //         &:hover{
+  //           background-color: #a9706a;
+            
+  //         }
+  //       }
+  //     }
+  //   }
+  //   h3{
+  //     font-size: 16px;
+  //     margin: 0;
+  //     color:#fff;
+  //     font-weight: 300;
+  //   }
+  // }
+  
+  // .users-table{
+  //   padding:8px 0;
+  //   margin-top:20px;
+  //   background-color: #b56257;
+  //   color:#fff;
+  //   border-radius: 7px;
+  //   .users{
+  //     display: flex;
+  //     justify-content: space-between;
+  //     align-items: center;
+  //     padding:0 15px;
+  //     cursor: pointer;
+  //     border-bottom:1px solid #c98d86;
+  //     height: 40%;
+  //     .id{
+  //       width: fit-content !important;
+  //     }
+  //     &:hover{
+  //       background-color: #c98d86;
+  //     }
+  //     &:last-child{
+  //       border-bottom: none;
+  //     }
+  //     video{
+  //       width: 100px;
+  //     }
+  //     image{
+  //       width: 100px;
+  //     }
+  //     .users-item{
+  //       width: 100px;
+  //       padding:2px 0;
+  //       word-break: break-all;
+  //       .actions{
+  //         display: flex;
+  //         align-items: center;
+  //       }
+  //       .edit{
+  //         content: url('../../../assets/dashboard/edit.svg');
+  //         width: 30px;
+  //         padding:2px;
+  //         border-radius: 5px;
+  //         &:hover{
+  //           background-color: #a9706a;
+  //         }
+  //       }
+  //       .delete{
+  //         content: url('../../../assets/dashboard/delete.svg');
+  //         width: 35px;
+  //         padding:2px;
+  //         border-radius: 5px;
+  //         &:hover{
+  //           background-color: #a9706a;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   .error-message{
+  //     text-align: center;
+  //   }
+  // }
+  // .dashboard-header{
+  //   display: flex;
+  //   align-items: center;
+  //   margin-bottom:25px;
+  //   justify-content: space-between;
+  //   .filters{
+  //     display: flex;
+  //     align-items: center;
+  //   }
+  //   .search{
+  //     input{
+  //       width: 300px;
+  //       margin-right: 30px;
+  //     }
+  //   }
+  //   button{
+  //     width: 300px;
+  //   }
+  //   .logged-in{
+  //     display: flex;
+  //     align-items: center;
+  //     cursor: pointer;
+  //     .initials{
+  //       background-color: #808080;
+  //       color:#fff;
+  //       width: 50px;
+  //       height: 50px;
+  //       display: flex;
+  //       align-items: center;
+  //       justify-content: center;
+  //       border-radius: 50%;
+  //       margin-right: 10px;
+  //       font-size: 20px;
+  //     }
+  //   }
+  // }
+  // .role-admin{
+  //   background-color: rgba(161, 236, 167, 0.5);
+  //   width: fit-content;
+  //   padding:5px 8px;
+  //   border-radius: 5px;
+  //   border:1px solid rgb(161, 236, 167);
+  // }
+  // .role-user{
+  //   background-color: rgba(139, 184, 242, 0.5);
+  //   width: fit-content;
+  //   padding:5px 8px;
+  //   border-radius: 5px;
+  //   border:1px solid rgb(139, 184, 242);
+  
+  // }
+  // .pagination {
+  //   display: flex;
+  //   justify-content: center;
+  //   margin-top: 20px;
+  //   list-style: none;
+  //   .page-item {
+  //     margin: 0 5px;
+  //     background-color: #3b7e86;
+  //     width: 35px;
+  //     height: 35px;
+  //     display: flex;
+  //     align-items:center;
+  //     justify-content: center;
+  //     cursor: pointer;
+  //     border-radius: 5px;
+  //     a{
+  //       text-decoration: none;
+  //       color:#fff;
+  //     }
+  //     &.active {
+  //       font-weight: bold;
+  //       background-color: #b56257;
+  //     }
+  //   }
+  // }
+  // @media(max-width:1250px){
+  //   .dashboard{
+  //     flex-direction: column;
+  //     overflow: scroll;
+  //   }
+  //  .filters{
+  //   width: 300px !important;
+  //  }
+  //   .table{
+  //     padding:20px 0;
+  //     width: 1500px;
+  //     margin:0 auto;
+  //   }
+  // }

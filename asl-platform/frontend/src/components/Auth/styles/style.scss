@@ -1,0 +1,15 @@
+body.dark-mode{
+    .auth{
+        background-color: #f0f0f0;
+        input{
+            background-color: #fff;
+            color:#464343;
+            &:focus, &::placeholder{
+                color:#464343;
+            }
+        }
+        button{
+            background-color: #3b7e86;
+        }
+    }
+}

@@ -1,0 +1,134 @@
+.donations-admin{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  .responses {
+    color:#fff;
+    text-decoration: none;
+  }
+  button{
+    width: 140px;
+  }
+  .main {
+    display: block;
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  input[type=checkbox] {
+    visibility: hidden;
+  }
+  .span {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 33px;
+    width: 33px;
+    background-color: #f3f3f3;
+    border-radius: 50%;
+  }
+  .main:hover input ~ .span {
+    background-color: #63a1a8;
+  }
+  .main input:active ~ .span {
+    background-color: #fff;
+  }
+  .main input:checked ~ .span {
+    background-color: #3b7e86;
+  }
+  .span:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .main input:checked ~ .span:after {
+    display: block;
+  }
+  .main .span:after {
+    left: 12px;
+    bottom: 10px;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+.donations{
+  margin-top:30px;
+}
+.donations-view{
+  width: 100%;
+  padding:70px 80px;
+  position: relative;
+  .go-back{
+    left: 70px;
+    top:30px;
+  }
+  .line{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(233, 220, 220);
+    margin:50px 0;
+    border-radius: 30px;
+  }
+  .input-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  label{
+    width: 250px;
+    font-size: 20px;
+  }
+}
+.donation{
+  margin: 5px auto;
+  padding: 10px 8px;
+  vertical-align: middle;
+  border-radius: 8px;
+  width: 400px;
+  background-color: #ffffff;
+  border: 1px solid rgba(36,28,21,0.3);
+  transition: all 0.2s ease-in-out 0s;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+@media(max-width:1250px){
+  .donations-edit{
+    overflow-x: hidden;
+  }
+  .donations-view{
+    padding:50px 0;
+    width: 90%;
+    margin:0 auto;
+  }
+}
+@media(max-width:640px){
+  .donations-view{
+    .input-container{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    label{
+      width: fit-content;
+    }
+  }
+  .donation{
+    width: 90%;
+    margin:10px 0;
+  }
+}
+body.dark-mode{
+  .donation{
+    background-color: #464343;
+    border: 1px solid rgba(133, 130, 127, 0.3);
+  }
+}

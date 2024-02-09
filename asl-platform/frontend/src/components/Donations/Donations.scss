@@ -1,0 +1,25 @@
+.quote-h6{
+    font-size: 20px;
+}
+.donations{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding:50px 0;
+    .error{
+        margin:10px auto;
+        width: 400px;
+    }
+    textarea:focus{
+        padding:5px;
+    }
+    select{
+        width: 421px;
+    }
+    .input-container{
+        margin:0 auto;
+    }
+    button{
+        margin-top:40px
+    }
+}

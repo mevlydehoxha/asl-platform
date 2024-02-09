@@ -1,0 +1,12 @@
+.not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:200px;
+    .confused{
+        content: url('../../../assets/dashboard/confused.png');
+    }
+    h1{
+        color:rgb(170, 160, 160)
+    }
+}

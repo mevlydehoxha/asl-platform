@@ -1,0 +1,39 @@
+.edit-container{
+    display: flex;
+    height: 100%;
+}
+.edit-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    .role{
+        .dropdown{
+            margin:5px 0;
+            width: 100%;
+        }
+    }
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0;
+}
+@media(max-width:1250px){
+    .edit-container{
+      flex-direction: column;
+      .edit-form{
+        margin-top:50px;
+      }
+    }
+}
+@media(max-width:640px){
+    .edit-form{
+        padding-top:50px;
+        form{
+            margin-top:30px;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  background-color: #f0f0f0;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  
+}
+#root{
+  height: 100%;
+}
+@font-face {
+  font-family: 'Poppins'; 
+  src: url('./assets/fonts/Poppins-Light.ttf') format('ttf'),
+}
+@media(max-width:1250px){
+  html, body{
+    overflow: auto;
+  }
+}
